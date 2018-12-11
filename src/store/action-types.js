@@ -1,0 +1,15 @@
+export const GET_MSITEDATA = "get_msitedata";
+export const GET_CATEGORY = "get_category";
+export const GET_SHIWU = "get_shiwu";
+export const GET_DARENDATE = "get_darendate";
+export const GEI_NEWDATE = "gei_newdate";
+export const GET_HOMEDATE = "get_homedate";
+export const GET_USERLOGIN = "get_userlogin";
+export const ERRMSG = "errmsg";
+export const GET_CODE = "get_code";
+export const GET_CODEFail = "get_codefail";
+export const GET_LOGINCODE = "get_logincode";
+export const GET_LOGINCODEFAIL = "get_logincodefail";
+export const GET_INITUSER = "get_inituser";
+export const GET_LOGINOUT = "get_loginout";
+export const GET_HOTINIT = "get_hotinit";

@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29e96503-ace9-4e87-b7c0-e5705426fef6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FooterGuide/FootGuide.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FooterGuide/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Topic/TopicItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Topic/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/homeC/homeC.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/homeC/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/newCom/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/newCom/newCom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Classify/Classify.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Classify/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login/login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Msite/Msite.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Msite/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Order/Order.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Order/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Profile/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/search/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/search/search.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/daren/daren.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/daren/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/home/home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/new/UpNew.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/new/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/recommend/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/recommend/recommend.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/shaidan/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/shaidan/shaidan.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shiwu/shiwu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/action-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,61 +63,233 @@
     <session id="1166320494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="js" value="3" />
-          <entry key="json" value="3" />
+          <entry key="css" value="1" />
+          <entry key="html" value="3" />
+          <entry key="ico" value="1" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="57" />
+          <entry key="json" value="21" />
+          <entry key="jsx" value="79" />
+          <entry key="png" value="1" />
+          <entry key="sass" value="1" />
+          <entry key="styl" value="39" />
+          <entry key="vue" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="3" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="4" />
+          <entry key="JSON" value="21" />
+          <entry key="JSX Harmony" value="79" />
+          <entry key="JavaScript" value="57" />
+          <entry key="Sass" value="1" />
+          <entry key="Stylus" value="39" />
+          <entry key="Vue.js" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="1" />
+          <entry key="ESLintLanguageService" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="9" />
-          <entry key="js" value="173" />
+          <entry key="html" value="33" />
+          <entry key="js" value="2190" />
+          <entry key="json" value="49" />
+          <entry key="jsx" value="8058" />
+          <entry key="styl" value="176" />
+          <entry key="vue" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="9" />
-          <entry key="JavaScript" value="173" />
+          <entry key="HTML" value="33" />
+          <entry key="JSON" value="49" />
+          <entry key="JSX Harmony" value="8058" />
+          <entry key="JavaScript" value="2190" />
+          <entry key="Stylus" value="176" />
+          <entry key="Vue.js" value="38" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="284">
+              <caret line="160" column="25" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#174#0" expanded="true" />
+                <element signature="n#!!block;n#reqMsiteD#0" />
+                <element signature="n#!!block;n#reqCategoryData#0" />
+                <element signature="n#!!block;n#reqShiWu#0" />
+                <element signature="n#!!block;n#reqDaRenD#0" />
+                <element signature="n#!!block;n#reqNewD#0" />
+                <element signature="n#!!block;n#reqHomeArr#0" />
+                <element signature="n#!!block;n#reqLogin#0" />
+                <element signature="n#!!block;n#reqC#0" />
+                <element signature="n#!!block;n#reqCL#0" />
+                <element signature="n#!!block;n#reqCL#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/search/search.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/search/index.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="n#!!block;n#msiteData#0" />
+                <element signature="n#!!block;n#categoryData#0" />
+                <element signature="n#!!block;n#shiWuArr#0" />
+                <element signature="n#!!block;n#daRenArr#0" />
+                <element signature="n#!!block;n#newArr#0" />
+                <element signature="n#!!block;n#homeArr#0" />
+                <element signature="n#!!block;n#user#0" />
+                <element signature="n#!!block;n#code#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/action-types.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/Login/login.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Login/index.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6555">
+              <caret line="351" column="6" selection-start-line="351" selection-start-column="6" selection-end-line="351" selection-end-column="6" />
+              <folding>
+                <element signature="e#5612#6799#0" />
+                <element signature="e#6806#7806#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="442" column="21" lean-forward="true" selection-start-line="442" selection-start-column="21" selection-end-line="442" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Sass File" />
+        <option value="JSX File" />
+        <option value="Stylus File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sassRegex</find>
+      <find>3.75rem</find>
+      <find>v-</find>
+      <find>new</find>
+      <find>on</find>
+      <find>down</find>
+      <find>css</find>
+      <find>reqDaRen</find>
+      <find>img</find>
+      <find>input</find>
+      <find>click</find>
+      <find>style</find>
+      <find>button</find>
+      <find>&lt;button</find>
+      <find>img</find>
+      <find>../../../</find>
+      <find>reqLO</find>
+      <find>class</find>
+      <find>code</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,10 +298,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/pages/shiwu/recommend/remomend.jsx" />
+        <option value="$PROJECT_DIR$/src/components/FooterGuide/FootGuide.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/Msite/Msite.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/Msite/index.styl" />
+        <option value="$PROJECT_DIR$/src/pages/Classify/Classify.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/Classify/index.styl" />
+        <option value="$PROJECT_DIR$/src/components/Topic/index.styl" />
+        <option value="$PROJECT_DIR$/src/components/Topic/TopicItem.vue" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/recommend/index.styl" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/recommend/recommend.jsx" />
+        <option value="$PROJECT_DIR$/src/mock/shiwu.json" />
+        <option value="$PROJECT_DIR$/src/components/Topic/TopicItem.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/index.styl" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/daren/index.styl" />
+        <option value="$PROJECT_DIR$/src/mock/new.json" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/daren/daren.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/new/index.styl" />
+        <option value="$PROJECT_DIR$/src/components/newCom/newCom.vue" />
+        <option value="$PROJECT_DIR$/src/components/newCom/index.styl" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/new/new.vue" />
+        <option value="$PROJECT_DIR$/src/components/newCom/NewCom.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/new/UpNew.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/shaidan/shaidan.vue" />
+        <option value="$PROJECT_DIR$/src/components/newCom/newCom.jsx" />
+        <option value="$PROJECT_DIR$/src/components/homeC/homeC.vue" />
+        <option value="$PROJECT_DIR$/src/components/homeC/index.styl" />
+        <option value="$PROJECT_DIR$/src/components/homeC/homeC.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/home/home.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/shiwu.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/Order/Order.vue" />
+        <option value="$PROJECT_DIR$/src/pages/Login/Login.vue" />
+        <option value="$PROJECT_DIR$/src/pages/Order/Order.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/Order/index.styl" />
+        <option value="$PROJECT_DIR$/src/pages/Profile/Profile.vue" />
+        <option value="$PROJECT_DIR$/src/pages/Profile/index.styl" />
+        <option value="$PROJECT_DIR$/src/api/ajax.js" />
+        <option value="$PROJECT_DIR$/src/pages/Profile/Profile.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/shaidan/index.styl" />
+        <option value="$PROJECT_DIR$/src/pages/shiwu/shaidan/shaidan.jsx" />
+        <option value="$PROJECT_DIR$/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/search/search.vue" />
+        <option value="$PROJECT_DIR$/src/pages/search/index.styl" />
+        <option value="$PROJECT_DIR$/src/store/action-types.js" />
+        <option value="$PROJECT_DIR$/src/pages/search/search.jsx" />
+        <option value="$PROJECT_DIR$/src/store/reducer.js" />
+        <option value="$PROJECT_DIR$/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/src/api/index.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
-        <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/pages/Login/index.styl" />
+        <option value="$PROJECT_DIR$/src/pages/Login/login.jsx" />
       </list>
     </option>
   </component>
@@ -104,11 +369,14 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="321" />
-    <option name="width" value="1047" />
-    <option name="height" value="728" />
+    <option name="x" value="517" />
+    <option name="y" value="58" />
+    <option name="width" value="1274" />
+    <option name="height" value="625" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -131,6 +399,95 @@
               <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="homeC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Classify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netease-strictly-selected-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netease-strictly-selected-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -139,16 +496,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Ms&#9;FILE&#9;file://E:/Estudy/netease-strictly-selected-react/src/pages/Msite/Msite.jsx&#10;Msite&#9;null&#9;null&#10;App&#9;FILE&#9;file://E:/Estudy/netease-strictly-selected-react/src/App.jsx" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="E:\Estudy\netease-strictly-selected-react\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\Estudy\netease-strictly-selected-react\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Estudy\netease-strictly-selected-react\public\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Estudy\netease-strictly-selected-react\public" />
+      <recent name="E:\Estudy\netease-strictly-selected-react\src\store" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,6 +533,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -174,23 +562,27 @@
       <updated>1544322275071</updated>
       <workItem from="1544322277946" duration="3317000" />
       <workItem from="1544405834236" duration="1241000" />
+      <workItem from="1544407960282" duration="7537000" />
+      <workItem from="1544420306917" duration="19087000" />
+      <workItem from="1544443625442" duration="6162000" />
+      <workItem from="1544490487884" duration="38321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4558000" />
+    <option name="totallyTimeSpent" value="75665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19213313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24262296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -213,34 +605,485 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/daren/daren.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7659">
-          <caret line="333" column="27" selection-start-line="333" selection-start-column="27" selection-end-line="333" selection-end-column="27" />
+        <state relative-caret-position="506">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#166#229#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
+    <entry file="file://$PROJECT_DIR$/src/mock/daren.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9505">
-          <caret line="436" column="35" lean-forward="true" selection-start-line="436" selection-start-column="35" selection-end-line="436" selection-end-column="35" />
+        <state relative-caret-position="92">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#66#3974#0" />
+            <element signature="e#851#1624#0" />
+            <element signature="e#1632#2401#0" />
+            <element signature="e#2409#3191#0" />
+            <element signature="e#3199#3968#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/shiwu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="749" column="2" lean-forward="true" selection-start-line="749" selection-start-column="2" selection-end-line="749" selection-end-column="2" />
+          <folding>
+            <element signature="e#4#4112#0" />
+            <element signature="e#16#246#0" />
+            <element signature="e#270#1051#0" />
+            <element signature="e#1059#1842#0" />
+            <element signature="e#1850#2624#0" />
+            <element signature="e#2632#3405#0" />
+            <element signature="e#3426#4108#0" />
+            <element signature="e#4116#7080#0" />
+            <element signature="e#4156#4917#0" />
+            <element signature="e#4925#5712#0" />
+            <element signature="e#5720#6501#0" />
+            <element signature="e#7084#10075#0" />
+            <element signature="e#7124#7917#0" />
+            <element signature="e#7925#8708#0" />
+            <element signature="e#8716#9499#0" />
+            <element signature="e#10079#13051#0" />
+            <element signature="e#10119#10896#0" />
+            <element signature="e#10904#11686#0" />
+            <element signature="e#11694#12472#0" />
+            <element signature="e#13055#16109#0" />
+            <element signature="e#13095#13899#0" />
+            <element signature="e#13907#14718#0" />
+            <element signature="e#14726#15503#0" />
+            <element signature="e#16113#18260#0" />
+            <element signature="e#16153#16924#0" />
+            <element signature="e#16932#17702#0" />
+            <element signature="e#18264#21229#0" />
+            <element signature="e#18304#19082#0" />
+            <element signature="e#19090#19862#0" />
+            <element signature="e#19870#20652#0" />
+            <element signature="e#21273#22051#0" />
+            <element signature="e#22059#22836#0" />
+            <element signature="e#22844#23616#0" />
+            <element signature="e#23624#24403#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/category.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/daren/daren.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/new/index.styl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Topic/TopicItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/new.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#3765#7385#0" />
+            <element signature="e#7393#11042#0" />
+            <element signature="e#11050#14359#0" />
+            <element signature="e#14367#17984#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/newCom/newCom.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/newCom/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/new/new.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#168#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/new/UpNew.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/ShiWu.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#router-view#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/home.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/newCom/newCom.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/homeC/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/recommend/recommend.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/homeC/homeC.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/home/home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#127#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/home/home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/homeC/homeC.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/mixins.styl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Order/Order.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="178" column="19" lean-forward="true" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Order/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/c.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Profile/z.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Profile/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Order/Order.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Profile/Profile.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Classify/Classify.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Login/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#4560#4631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/mockServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#42#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/shaidan/shaidan.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/shaidan/shaidan.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/shiwu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shiwu/shaidan/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Profile/Profile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#210#5374#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/search/search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="129" column="29" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="129" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/search/search.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="160" column="25" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#174#0" expanded="true" />
+            <element signature="n#!!block;n#reqMsiteD#0" />
+            <element signature="n#!!block;n#reqCategoryData#0" />
+            <element signature="n#!!block;n#reqShiWu#0" />
+            <element signature="n#!!block;n#reqDaRenD#0" />
+            <element signature="n#!!block;n#reqNewD#0" />
+            <element signature="n#!!block;n#reqHomeArr#0" />
+            <element signature="n#!!block;n#reqLogin#0" />
+            <element signature="n#!!block;n#reqC#0" />
+            <element signature="n#!!block;n#reqCL#0" />
+            <element signature="n#!!block;n#reqCL#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/search/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#msiteData#0" />
+            <element signature="n#!!block;n#categoryData#0" />
+            <element signature="n#!!block;n#shiWuArr#0" />
+            <element signature="n#!!block;n#daRenArr#0" />
+            <element signature="n#!!block;n#newArr#0" />
+            <element signature="n#!!block;n#homeArr#0" />
+            <element signature="n#!!block;n#user#0" />
+            <element signature="n#!!block;n#code#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="442" column="21" lean-forward="true" selection-start-line="442" selection-start-column="21" selection-end-line="442" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="69" column="15" lean-forward="true" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+        <state relative-caret-position="201">
+          <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/pages/Login/index.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="6555">
+          <caret line="351" column="6" selection-start-line="351" selection-start-column="6" selection-end-line="351" selection-end-column="6" />
+          <folding>
+            <element signature="e#5612#6799#0" />
+            <element signature="e#6806#7806#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Login/login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

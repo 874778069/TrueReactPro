@@ -1,0 +1,187 @@
+<template>
+    <div class="wrap">
+      <div class="top">
+        <span @click="$router.push('/msite')"></span>
+        <span></span>
+        <input type="text" v-model="$route.query.keyword" @click="$router.replace('/search')">
+        <div class="conditions">
+          <div :class="{on : isCommon}" @click="show(true,false,false)">综合</div>
+          <div :class="{on : isHigh}" @click="show(false,true,false)">价格高到低</div>
+          <div :class="{on : isLow}" @click="show(false,false,true)">价格低到高</div>
+        </div>
+      </div>
+
+      <ul>
+        <li v-for="item in arr" >
+          <a :href="`http://m.you.163.com/item/detail?id=${item.id}&_stat_area=0&_stat_referer=search&_stat_query=%E6%8C%89%E6%91%A9&_stat_count=40#/?_k=7ywltw`">
+            <img v-lazy="item.listPicUrl" alt="">
+            <div class="up">{{item.simpleDesc}}</div>
+            <div class="down">{{item.name}}</div>
+            <span class="new">¥{{item.retailPrice}}</span>
+            <span class="old">{{item.counterPrice == item.retailPrice ? "" : `¥${item.counterPrice}`}}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+</template>
+
+<script>
+  import {mapState} from "vuex"
+  export default {
+    name: 'keyContent',
+    data(){
+      return{
+        isCommon : true,
+        isHigh : false,
+        isLow : false,
+      }
+    },
+    computed:{
+      ...mapState(["keyContent"]),
+      arr(){
+        if (this.isHigh) {
+          const arr = this.keyContent.directlyList.slice(0);
+          const arr1 = arr.sort((a,b)=>{
+            return b.retailPrice - a.retailPrice
+          })
+          return arr1
+        }else if(this.isLow){
+          const arr2 = this.keyContent.directlyList.slice(0);
+          const arr3 = arr2.sort((a,b)=>{
+            return a.retailPrice - b.retailPrice
+          })
+          return arr3
+        }else if(this.isCommon){
+          return this.keyContent.directlyList
+        }
+      },
+    },
+    methods:{
+      show(c,h,l){
+        this.isCommon = c;
+        this.isHigh = h;
+        this.isLow = l;
+      }
+    },
+    mounted(){
+      this.$store.commit("changeKongArr")
+      const keyword = this.$route.query.keyword;
+      this.$store.dispatch("reqKC",keyword)
+    }
+  }
+</script>
+
+<style scoped lang="stylus">
+  @import "./../../common/mixins.styl"
+  .wrap{
+    font-size 0.32rem
+    width: 100%
+    position relative
+    .top{
+      width: 100%
+      padding 0 .16rem 0 .2rem
+      position fixed !important
+      top: 0
+      left: 0
+      height: .88rem
+      z-index 99
+      background-color: white
+      line-height .88rem
+      box-sizing border-box
+      bottom-border-1px(gray)
+      span{
+        &:nth-child(1){
+          vertical-align: middle;
+          display: inline-block
+          width: 0.48rem
+          height: .44rem
+          background-image url("./img/logo.png")
+          background-size: 1.72rem 4.2rem
+          background-position-y -4.95rem
+        }
+        &:nth-child(2){
+          vertical-align: middle;
+          display: inline-block
+          width: 0.48rem
+          height: .44rem
+          background-image url("./img/logo.png")
+          background-size: 1.72rem 4.2rem
+          background-position -0.1rem -7.83rem
+          margin-left:.15rem
+        }
+
+      }
+      input{
+        width: 75%
+        height: 70%
+        outline none
+        border-bottom 0.0005rem solid gray
+      }
+      .conditions{
+        width: 100%
+        display flex
+        justify-content space-around
+        align-items center
+        div{
+          width calc(100% / 3)
+          background-color: white
+          text-align: center;
+          border-bottom 0.0005rem solid red
+          &.on{
+            color rgb(180, 40, 45)
+          }
+        }
+      }
+    }
+    ul{
+      position: absolute
+      top: 1.9rem
+      width: 100%
+      display flex
+      justify-content space-evenly
+      flex-wrap wrap
+      li{
+        padding-top .2rem
+        width: 46%
+        a{
+          width: 100%
+          img{
+            background-color: #f4f4f4
+            width: 100%
+          }
+          .up{
+            font-size .27rem
+            width: 100%
+            height .5rem
+            padding-left .1rem
+            line-height .5rem
+            overflow: hidden;/*内容超出后隐藏*/
+            text-overflow: ellipsis;/* 超出内容显示为省略号*/
+            white-space: nowrap;/*文本不进行换行*/
+            color #875D2A
+            background-color: #F8E4CC
+          }
+          .down{
+            font-size .3rem
+            width: 100%
+            height: .5rem
+            line-height .5rem
+            padding-left .03rem
+            overflow: hidden;/*内容超出后隐藏*/
+            text-overflow: ellipsis;/* 超出内容显示为省略号*/
+            white-space: nowrap;/*文本不进行换行*/
+            color black
+          }
+          .new{
+            color rgb(180, 40, 45)
+          }
+          .old{
+            font-size .25rem
+            text-decoration:line-through
+          }
+        }
+      }
+    }
+  }
+
+</style>
