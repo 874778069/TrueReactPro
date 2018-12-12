@@ -14,7 +14,10 @@ import {
     GET_LOGINCODE,
     GET_INITUSER,
     GET_LOGINOUT,
-    GET_HOTINIT
+    GET_HOTINIT,
+    GET_SEARCHARR,
+    GET_KEYCONTENT,
+    RESET
 } from "./action-types"
 
 
@@ -97,6 +100,8 @@ function code(state={},action) {
             return {sMsg:action.data};
         case GET_CODEFail:
             return {fMsg:action.data};
+        case GET_LOGINOUT:
+            return {};
         default :
             return state
     }
@@ -105,7 +110,27 @@ function code(state={},action) {
 function initArr(state=[],action) {
     switch (action.type) {
         case GET_HOTINIT:
-            return action.data
+            return action.data;
+        default :
+            return state
+    }
+}
+
+function searchArr(state=[],action) {
+    switch (action.type) {
+        case GET_SEARCHARR:
+            return action.data;
+        case RESET:
+            return [];
+        default :
+            return state
+    }
+}
+
+function keyC(state=[],action) {
+    switch (action.type) {
+        case GET_KEYCONTENT:
+            return action.data;
         default :
             return state
     }
@@ -120,5 +145,7 @@ export default combineReducers({
     homeArr,
     user,
     code,
-    initArr
+    initArr,
+    searchArr,
+    keyC
 })

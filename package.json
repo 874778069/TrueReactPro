@@ -80,6 +80,7 @@
   ],
   "devDependencies": {
     "create-react-app-stylus": "^1.1.1",
+    "http-proxy-middleware": "^0.19.1",
     "redux-devtools-extension": "^2.13.7",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"
@@ -129,6 +130,5 @@
     "presets": [
       "react-app"
     ]
-  },
-  "proxy": "http://localhost:5000"
+  }
 }

@@ -3,6 +3,7 @@ import "./index.styl"
 import {connect} from "react-redux"
 import {Redirect} from "react-router-dom"
 import {reqIU,reqLOUT} from "./../../store/actions"
+import {Modal} from "antd-mobile"
 
 class Profile extends React.Component {
 
@@ -11,10 +12,17 @@ class Profile extends React.Component {
     }
 
     loginOut=()=>{
-        this.props.reqLOUT();
-        if(JSON.stringify(this.props.user) == "{}"){
-            this.props.history.replace("/login")
-        }
+        Modal.alert('Delete', '你确定退出登录吗', [
+            { text: '取消', onPress: () => {} },
+            {
+                text: '确认', onPress: () => {
+                    this.props.reqLOUT();
+                    if (JSON.stringify(this.props.user) == "{}") {
+                        this.props.history.replace("/login")
+                    }
+                }
+            },
+        ])
     };
 
     render() {

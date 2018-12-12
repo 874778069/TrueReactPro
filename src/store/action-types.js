@@ -13,3 +13,6 @@ export const GET_LOGINCODEFAIL = "get_logincodefail";
 export const GET_INITUSER = "get_inituser";
 export const GET_LOGINOUT = "get_loginout";
 export const GET_HOTINIT = "get_hotinit";
+export const GET_SEARCHARR = "get_searcharr";
+export const GET_KEYCONTENT = "get_keycontent";
+export const RESET = "reset";

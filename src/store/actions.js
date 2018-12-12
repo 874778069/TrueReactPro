@@ -10,7 +10,9 @@ import {
     reqCodeLogin,
     reqUserData,
     reqLoginOut,
-    reqSearchInit
+    reqSearchInit,
+    reqSearchArr,
+    reqKeyContent
 } from "./../api/index.js"
 
 import {
@@ -28,7 +30,10 @@ import {
     GET_LOGINCODEFAIL,
     GET_INITUSER,
     GET_LOGINOUT,
-    GET_HOTINIT
+    GET_HOTINIT,
+    GET_SEARCHARR,
+    GET_KEYCONTENT,
+    RESET
 } from "./action-types";
 
 export const getMsiteData = (obj) => ({type:GET_MSITEDATA,data:obj});
@@ -45,7 +50,11 @@ export const getCodeLogin = (obj) => ({type:GET_LOGINCODE,data:obj});
 export const getCodeLoginFail = (obj) => ({type:GET_LOGINCODEFAIL,data:obj});
 export const getInitUser = (obj) => ({type:GET_INITUSER,data:obj});
 export const getLoginOut = (num) => ({type:GET_LOGINOUT,data:num});
-export const getInitHot = (arr) => ({type:GET_LOGINOUT,data:arr});
+export const getInitHot = (arr) => ({type:GET_HOTINIT,data:arr});
+export const getSearchArr = (arr) => ({type:GET_SEARCHARR,data:arr});
+export const getKeyContent = (arr) => ({type:GET_KEYCONTENT,data:arr});
+export const getReset = () => ({type:RESET});
+
 
 
 export function reqMsiteD(cb) {
@@ -104,10 +113,9 @@ export function reqHomeArr() {
 }
 
 export function reqLogin(username, pwd) {
-    console.log(username, pwd);
+
     return async dispatch => {
         const result = await reqUserLogin(username,pwd);
-        console.log("ss");
         if (result.code == 0){
             dispatch(getLogin(result.data))
         }else {
@@ -158,10 +166,27 @@ export function reqLOUT() {
 
 export function reqInitHot() {
     return async dispatch => {
-        console.log("a");
         const result = await reqSearchInit();
         if(result.code == 200){
             dispatch(getInitHot(result.data.hotKeywordVOList))
+        }
+    }
+}
+
+export function reqSA(keyword) {
+    return async dispatch => {
+        const result = await reqSearchArr(keyword);
+        if(result.code == 200){
+            dispatch(getSearchArr(result.data))
+        }
+    }
+}
+
+export function reqKeyC(keyword) {
+    return async dispatch => {
+        const result = await reqKeyContent(keyword);
+        if(result.code == 200){
+            dispatch(getKeyContent(result.data.directlyList))
         }
     }
 }

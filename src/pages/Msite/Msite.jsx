@@ -43,7 +43,7 @@ class Msite extends React.Component {
     render() {
         const {headCateList,focusList} = this.props.msiteD;
         return (
-            <div className="wrap1">
+            <div id="wrap1">
                 <div className="search">
                     <a href="javascript:;">
                     </a>

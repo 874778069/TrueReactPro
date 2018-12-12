@@ -4,7 +4,7 @@ import {connect} from "react-redux"
 import {reqLogin,reqC,reqCL} from "./../../store/actions"
 import {Redirect} from "react-router-dom"
 import {Toast} from 'antd-mobile'
-
+import "antd-mobile/dist/antd-mobile.css"
 
 class login extends React.Component {
 
@@ -16,40 +16,45 @@ class login extends React.Component {
         flag : true
     };
 
-
-
     userLogin=()=>{
         if(!this.refs.name.value || !this.refs.pwd.value){
-            return alert("密码或密码不能为空!")
+            return Toast.fail("用户名或密码不能为空!")
         }
 
-        this.flag3 = false;
+        this.flag3 = true;
         this.props.reqLogin(this.refs.name.value,this.refs.pwd.value)
     };
 
     timer;
     t=30;
     flag2=true;
+    flag3=true;
+    flag5=true;
+    flag4=true;
 
     sendCode=()=>{
         if (!/^1\d{10}$/.test(this.refs.phone.value)){
-            return alert("手机号必须合法")
+            return Toast.fail("手机号必须合法")
         }
-        Toast.info("发送验证码...")
+        Toast.loading("发送验证码...");
         this.flag2 = true;
+        this.flag5=true
         this.props.reqC(this.refs.phone.value);
     };
 
     codeLogin=()=>{
         console.log(this.refs.phone.value);
         if(!/^1\d{10}$/.test(this.refs.phone.value) || this.refs.code.value.length < 6){
-            return alert("手机号或验证码不合法")
+            return Toast.fail("手机号或验证码不合法")
         }
         this.flag4 = true;
         this.props.reqCL(this.refs.phone.value,this.refs.code.value)
     };
 
     handleC=(h,p,u)=>{
+        this.flag5 = false;
+        this.state.time=0;
+        clearInterval(this.timer);
         this.setState({
             isHome : h,
             isPhone : p,
@@ -63,8 +68,9 @@ class login extends React.Component {
         const code = this.props.code;
         const {time} = this.state;
 
-        if(code.sMsg&&this.t==30){
-            alert(code.sMsg);
+        if(code.sMsg && this.t==30 && this.flag5){
+            Toast.success(code.sMsg);
+            this.flag5=false
             this.timer = setInterval(()=>{
                 this.t--;
                 this.setState({
@@ -77,23 +83,22 @@ class login extends React.Component {
             },1000)
         }
         if(code.fMsg && this.flag2){
-            Toast.info("发送验证码失败")
-            alert(code.fMsg);
+            Toast.fail("发送验证码失败");
             this.flag2 = false
         }
         if(user.msg && this.flag3){
-            alert("用户名或密码不正确!");
+            Toast.fail("用户名或密码不正确!");
             this.flag3 = false
         }
 
         if(user.cFMsg && this.flag4){
-            alert(user.cFMsg);
+            Toast.fail(user.cFMsg); //验证码登录失败
             this.flag4 = false
         }
 
         if(user._id){
             this.state.time=0;
-            clearInterval(this.timer)
+            clearInterval(this.timer);
             return (<Redirect to="/profile"></Redirect>)
         }
 
@@ -104,7 +109,7 @@ class login extends React.Component {
                         <div className="m-topBar">
                             <div className="bd">
                                 <div className="row">
-                                    <a className="u-icon u-icon-home"></a>
+                                    <a className="u-icon u-icon-home" onClick={()=>{this.props.history.push('/msite')}}></a>
                                     <a href="javascript:;"><i className="logo u-icon u-icon-logo"></i></a>
                                     <div className="right">
                                         <a href="javascript:;" className="search">

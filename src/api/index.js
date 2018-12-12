@@ -5,7 +5,7 @@
 import ajax from './ajax'
 
 // const BASE = 'http://localhost:5000'
-const BASE = '';
+const BASE = '/api';
 //const BASE = ''; //打包
 const wangYi = "/163";
 
