@@ -10,7 +10,7 @@ import shop from "./pages/shop/shop.jsx"
 import login from "./pages/Login/login.jsx"
 import search from "./pages/search/search.jsx"
 import keyContent from "./pages/keyContent/keyContent.jsx"
-
+import NotFound from "./pages/notFound/NotFound.jsx"
 
 
 class App extends React.Component {
@@ -38,6 +38,7 @@ class App extends React.Component {
                     <Route path="/login" component={login}></Route>
                     <Route path="/search" component={search}></Route>
                     <Route path="/keyContent/:keyword" component={keyContent}></Route>
+                    <Route component={NotFound}></Route>
                 </Switch>
                 {flag ? <Footer></Footer> : null}
             </div>
